@@ -1,0 +1,104 @@
+{"id": "cqa-0013", "topic": "密码与安全", "qtype": "short", "question": "用不超过 12 个字回答：非对称加密 的核心是什么？", "answer": "公钥和私钥", "scorer": "em"}
+{"id": "cqa-0010", "topic": "密码与安全", "qtype": "def", "question": "请用一句话解释非对称加密。", "answer": "非对称加密使用一对密钥：公开的公钥用于加密，保密的私钥用于解密。", "scorer": "f1"}
+{"id": "cqa-0018", "topic": "密码与安全", "qtype": "short", "question": "用不超过 12 个字回答：数字签名 的核心是什么？", "answer": "私钥签名公钥验签", "scorer": "em"}
+{"id": "cqa-0025", "topic": "密码与安全", "qtype": "def", "question": "请用一句话解释弱 RSA 密钥。", "answer": "弱 RSA 密钥指模数位数过小，可被因数分解从而推出私钥的密钥。", "scorer": "f1"}
+{"id": "cqa-0028", "topic": "密码与安全", "qtype": "short", "question": "用不超过 12 个字回答：弱 RSA 密钥 的核心是什么？", "answer": "模数过小可被分解", "scorer": "em"}
+{"id": "cqa-0015", "topic": "密码与安全", "qtype": "def", "question": "用一句话说明数字签名的含义。", "answer": "数字签名用发送方私钥对摘要签名、接收方用公钥验签，以证明身份与完整性。", "scorer": "f1"}
+{"id": "cqa-0019", "topic": "密码与安全", "qtype": "attr", "question": "数字签名用哪把密钥生成？", "answer": "私钥", "scorer": "em"}
+{"id": "cqa-0012", "topic": "密码与安全", "qtype": "topic", "question": "「非对称加密」属于本课程哪个主题？", "answer": "密码与安全", "scorer": "em"}
+{"id": "cqa-0024", "topic": "密码与安全", "qtype": "attr", "question": "哈希函数是否可逆？", "answer": "不可逆", "scorer": "em"}
+{"id": "cqa-0023", "topic": "密码与安全", "qtype": "short", "question": "用不超过 12 个字回答：哈希函数 的核心是什么？", "answer": "单向不可逆", "scorer": "em"}
+{"id": "cqa-0017", "topic": "密码与安全", "qtype": "topic", "question": "数字签名对应课程八个选题中的哪个知识主题？", "answer": "密码与安全", "scorer": "em"}
+{"id": "cqa-0022", "topic": "密码与安全", "qtype": "topic", "question": "「哈希函数」属于本课程哪个主题？", "answer": "密码与安全", "scorer": "em"}
+{"id": "cqa-0011", "topic": "密码与安全", "qtype": "def", "question": "用一句话说明非对称加密的含义。", "answer": "非对称加密使用一对密钥：公开的公钥用于加密，保密的私钥用于解密。", "scorer": "f1"}
+{"id": "cqa-0020", "topic": "密码与安全", "qtype": "def", "question": "请用一句话解释哈希函数。", "answer": "哈希函数把任意长度输入映射为固定长度摘要，且单向不可逆、抗碰撞。", "scorer": "f1"}
+{"id": "cqa-0029", "topic": "密码与安全", "qtype": "attr", "question": "破解小参数 RSA 的核心数学问题是什么？", "answer": "大整数因数分解", "scorer": "em"}
+{"id": "cqa-0066", "topic": "数据结构", "qtype": "topic", "question": "「Dijkstra 算法」属于本课程哪个主题？", "answer": "数据结构", "scorer": "em"}
+{"id": "cqa-0060", "topic": "数据结构", "qtype": "def", "question": "用一句话说明BFS的含义。", "answer": "BFS 按层逐层扩展节点，使用队列实现，适合求无权图最短路。", "scorer": "f1"}
+{"id": "cqa-0070", "topic": "数据结构", "qtype": "def", "question": "请用一句话解释A* 算法。", "answer": "A* 在 Dijkstra 基础上加入启发函数估计剩余代价，以加速搜索。", "scorer": "f1"}
+{"id": "cqa-0065", "topic": "数据结构", "qtype": "def", "question": "什么是Dijkstra 算法？请简要说明。", "answer": "Dijkstra 算法用贪心策略求非负权图的单源最短路径。", "scorer": "f1"}
+{"id": "cqa-0067", "topic": "数据结构", "qtype": "short", "question": "用不超过 12 个字回答：Dijkstra 算法 的核心是什么？", "answer": "单源最短路", "scorer": "em"}
+{"id": "cqa-0069", "topic": "数据结构", "qtype": "def", "question": "什么是A* 算法？请简要说明。", "answer": "A* 在 Dijkstra 基础上加入启发函数估计剩余代价，以加速搜索。", "scorer": "f1"}
+{"id": "cqa-0081", "topic": "数据结构", "qtype": "topic", "question": "「前缀编码」属于本课程哪个主题？", "answer": "数据结构", "scorer": "em"}
+{"id": "cqa-0063", "topic": "数据结构", "qtype": "attr", "question": "BFS 使用哪种数据结构？", "answer": "队列", "scorer": "em"}
+{"id": "cqa-0068", "topic": "数据结构", "qtype": "attr", "question": "Dijkstra 能否处理负权边？", "answer": "不能", "scorer": "em"}
+{"id": "cqa-0080", "topic": "数据结构", "qtype": "def", "question": "请用一句话解释前缀编码。", "answer": "前缀编码指任一码字都不是其他码字的前缀，因而可无歧义解码。", "scorer": "f1"}
+{"id": "cqa-0077", "topic": "数据结构", "qtype": "short", "question": "用不超过 12 个字回答：哈夫曼树 的核心是什么？", "answer": "最优前缀编码树", "scorer": "em"}
+{"id": "cqa-0078", "topic": "数据结构", "qtype": "attr", "question": "哈夫曼编码中频率越高的字符编码越怎样？", "answer": "越短", "scorer": "em"}
+{"id": "cqa-0073", "topic": "数据结构", "qtype": "attr", "question": "A* 的估价函数 f 等于 g 加什么？", "answer": "h", "scorer": "em"}
+{"id": "cqa-0079", "topic": "数据结构", "qtype": "def", "question": "用一句话说明前缀编码的含义。", "answer": "前缀编码指任一码字都不是其他码字的前缀，因而可无歧义解码。", "scorer": "f1"}
+{"id": "cqa-0082", "topic": "数据结构", "qtype": "short", "question": "用不超过 12 个字回答：前缀编码 的核心是什么？", "answer": "无码字是另一码字前缀", "scorer": "em"}
+{"id": "cqa-0126", "topic": "大模型", "qtype": "attr", "question": "LoRA 是否更新原始全部权重？", "answer": "不更新", "scorer": "em"}
+{"id": "cqa-0133", "topic": "大模型", "qtype": "def", "question": "用一句话说明SFT的含义。", "answer": "SFT 用带标签的指令-回答数据对模型做监督微调。", "scorer": "f1"}
+{"id": "cqa-0123", "topic": "大模型", "qtype": "def", "question": "请用一句话解释LoRA。", "answer": "LoRA 冻结原权重、只训练注入的低秩旁路矩阵，从而低成本微调大模型。", "scorer": "f1"}
+{"id": "cqa-0115", "topic": "大模型", "qtype": "short", "question": "用不超过 12 个字回答：token 的核心是什么？", "answer": "文本最小处理单元", "scorer": "em"}
+{"id": "cqa-0119", "topic": "大模型", "qtype": "topic", "question": "微调对应课程八个选题中的哪个知识主题？", "answer": "大模型", "scorer": "em"}
+{"id": "cqa-0131", "topic": "大模型", "qtype": "attr", "question": "INT4 量化每个权重占多少比特？", "answer": "4", "scorer": "em"}
+{"id": "cqa-0121", "topic": "大模型", "qtype": "attr", "question": "微调通常在哪个模型基础上进行？", "answer": "预训练模型", "scorer": "em"}
+{"id": "cqa-0130", "topic": "大模型", "qtype": "short", "question": "用不超过 12 个字回答：量化 的核心是什么？", "answer": "降低权重精度", "scorer": "em"}
+{"id": "cqa-0111", "topic": "大模型", "qtype": "short", "question": "用不超过 12 个字回答：自注意力 的核心是什么？", "answer": "self-attention", "scorer": "em"}
+{"id": "cqa-0114", "topic": "大模型", "qtype": "topic", "question": "「token」属于本课程哪个主题？", "answer": "大模型", "scorer": "em"}
+{"id": "cqa-0139", "topic": "大模型", "qtype": "short", "question": "用不超过 12 个字回答：幻觉 的核心是什么？", "answer": "hallucination", "scorer": "em"}
+{"id": "cqa-0109", "topic": "大模型", "qtype": "def", "question": "什么是自注意力？请简要说明。", "answer": "自注意力让每个 token 依据与所有 token 的相关性加权聚合信息。", "scorer": "f1"}
+{"id": "cqa-0136", "topic": "大模型", "qtype": "def", "question": "请用一句话解释幻觉。", "answer": "幻觉指模型生成看似合理但与事实不符的内容。", "scorer": "f1"}
+{"id": "cqa-0108", "topic": "大模型", "qtype": "def", "question": "用一句话说明自注意力的含义。", "answer": "自注意力让每个 token 依据与所有 token 的相关性加权聚合信息。", "scorer": "f1"}
+{"id": "cqa-0117", "topic": "大模型", "qtype": "def", "question": "请用一句话解释微调。", "answer": "微调是在预训练模型上用任务数据继续训练，使其适配特定任务。", "scorer": "f1"}
+{"id": "cqa-0120", "topic": "大模型", "qtype": "short", "question": "用不超过 12 个字回答：微调 的核心是什么？", "answer": "fine-tuning", "scorer": "em"}
+{"id": "cqa-0105", "topic": "大模型", "qtype": "topic", "question": "「Transformer」属于本课程哪个主题？", "answer": "大模型", "scorer": "em"}
+{"id": "cqa-0107", "topic": "大模型", "qtype": "attr", "question": "Transformer 的核心机制是什么？", "answer": "自注意力", "scorer": "em"}
+{"id": "cqa-0110", "topic": "大模型", "qtype": "topic", "question": "「自注意力」属于本课程哪个主题？", "answer": "大模型", "scorer": "em"}
+{"id": "cqa-0103", "topic": "大模型", "qtype": "def", "question": "什么是Transformer？请简要说明。", "answer": "Transformer 是基于自注意力机制的神经网络架构，是当前大语言模型的基础。", "scorer": "f1"}
+{"id": "cqa-0104", "topic": "大模型", "qtype": "def", "question": "用一句话说明Transformer的含义。", "answer": "Transformer 是基于自注意力机制的神经网络架构，是当前大语言模型的基础。", "scorer": "f1"}
+{"id": "cqa-0122", "topic": "大模型", "qtype": "def", "question": "什么是LoRA？请简要说明。", "answer": "LoRA 冻结原权重、只训练注入的低秩旁路矩阵，从而低成本微调大模型。", "scorer": "f1"}
+{"id": "cqa-0106", "topic": "大模型", "qtype": "short", "question": "用不超过 12 个字回答：Transformer 的核心是什么？", "answer": "自注意力架构", "scorer": "em"}
+{"id": "cqa-0145", "topic": "计算理论", "qtype": "def", "question": "用一句话说明时间复杂度的含义。", "answer": "时间复杂度描述算法运行时间随输入规模增长的阶。", "scorer": "f1"}
+{"id": "cqa-0143", "topic": "计算理论", "qtype": "short", "question": "用不超过 12 个字回答：图灵机 的核心是什么？", "answer": "计算数学模型", "scorer": "em"}
+{"id": "cqa-0142", "topic": "计算理论", "qtype": "topic", "question": "图灵机对应课程八个选题中的哪个知识主题？", "answer": "计算理论", "scorer": "em"}
+{"id": "cqa-0149", "topic": "计算理论", "qtype": "attr", "question": "O(n log n) 与 O(n^2) 哪个增长更慢？", "answer": "O(n log n)", "scorer": "em"}
+{"id": "cqa-0140", "topic": "计算理论", "qtype": "def", "question": "请用一句话解释图灵机。", "answer": "图灵机是描述可计算性的抽象数学模型，是现代计算机的理论基础。", "scorer": "f1"}
+{"id": "cqa-0147", "topic": "计算理论", "qtype": "topic", "question": "「时间复杂度」属于本课程哪个主题？", "answer": "计算理论", "scorer": "em"}
+{"id": "cqa-0164", "topic": "编码", "qtype": "attr", "question": "二进制的基数是多少？", "answer": "2", "scorer": "em"}
+{"id": "cqa-0167", "topic": "编码", "qtype": "topic", "question": "字节对应课程八个选题中的哪个知识主题？", "answer": "编码", "scorer": "em"}
+{"id": "cqa-0162", "topic": "编码", "qtype": "topic", "question": "二进制对应课程八个选题中的哪个知识主题？", "answer": "编码", "scorer": "em"}
+{"id": "cqa-0160", "topic": "编码", "qtype": "def", "question": "用一句话说明二进制的含义。", "answer": "二进制是基数为 2 的计数系统，计算机内部以二进制表示数据。", "scorer": "f1"}
+{"id": "cqa-0166", "topic": "编码", "qtype": "def", "question": "用一句话说明字节的含义。", "answer": "字节由 8 个比特组成，是常见的存储计量单位。", "scorer": "f1"}
+{"id": "cqa-0161", "topic": "编码", "qtype": "def", "question": "什么是二进制？请简要说明。", "answer": "二进制是基数为 2 的计数系统，计算机内部以二进制表示数据。", "scorer": "f1"}
+{"id": "cqa-0101", "topic": "数据库", "qtype": "short", "question": "用不超过 12 个字回答：主键 的核心是什么？", "answer": "唯一标识一行", "scorer": "em"}
+{"id": "cqa-0098", "topic": "数据库", "qtype": "def", "question": "用一句话说明主键的含义。", "answer": "主键是表中唯一标识每一行记录、且非空的字段。", "scorer": "f1"}
+{"id": "cqa-0099", "topic": "数据库", "qtype": "def", "question": "什么是主键？请简要说明。", "answer": "主键是表中唯一标识每一行记录、且非空的字段。", "scorer": "f1"}
+{"id": "cqa-0004", "topic": "计算机网络", "qtype": "attr", "question": "P2P 架构中是否存在中心服务器？", "answer": "不存在", "scorer": "em"}
+{"id": "cqa-0000", "topic": "计算机网络", "qtype": "def", "question": "用一句话说明P2P 通信的含义。", "answer": "P2P 通信指网络中各设备地位平等、不依赖中心服务器直接交换数据的通信方式。", "scorer": "f1"}
+{"id": "cqa-0002", "topic": "计算机网络", "qtype": "topic", "question": "「P2P 通信」属于本课程哪个主题？", "answer": "计算机网络", "scorer": "em"}
+{"id": "cqa-0039", "topic": "强化学习", "qtype": "def", "question": "请用一句话解释奖励函数。", "answer": "奖励函数把状态与动作映射为标量反馈，定义任务的优化目标。", "scorer": "f1"}
+{"id": "cqa-0034", "topic": "强化学习", "qtype": "attr", "question": "强化学习中给出反馈信号的是什么？", "answer": "奖励", "scorer": "em"}
+{"id": "cqa-0031", "topic": "强化学习", "qtype": "def", "question": "请用一句话解释智能体。", "answer": "智能体是在环境中感知状态、采取动作并以奖励为目标进行学习的决策主体。", "scorer": "f1"}
+{"id": "cqa-0048", "topic": "强化学习", "qtype": "attr", "question": "Q-learning 学习的是策略还是价值函数？", "answer": "价值函数", "scorer": "em"}
+{"id": "cqa-0046", "topic": "强化学习", "qtype": "topic", "question": "「Q-learning」属于本课程哪个主题？", "answer": "强化学习", "scorer": "em"}
+{"id": "cqa-0037", "topic": "强化学习", "qtype": "topic", "question": "状态对应课程八个选题中的哪个知识主题？", "answer": "强化学习", "scorer": "em"}
+{"id": "cqa-0033", "topic": "强化学习", "qtype": "short", "question": "用不超过 12 个字回答：智能体 的核心是什么？", "answer": "agent", "scorer": "em"}
+{"id": "cqa-0032", "topic": "强化学习", "qtype": "topic", "question": "智能体对应课程八个选题中的哪个知识主题？", "answer": "强化学习", "scorer": "em"}
+{"id": "cqa-0041", "topic": "强化学习", "qtype": "topic", "question": "奖励函数对应课程八个选题中的哪个知识主题？", "answer": "强化学习", "scorer": "em"}
+{"id": "cqa-0044", "topic": "强化学习", "qtype": "def", "question": "什么是Q-learning？请简要说明。", "answer": "Q-learning 是一种通过学习状态-动作价值函数来求解最优策略的无模型强化学习算法。", "scorer": "f1"}
+{"id": "cqa-0035", "topic": "强化学习", "qtype": "def", "question": "请用一句话解释状态。", "answer": "状态是环境在某一时刻的观测表示，是智能体决策的依据。", "scorer": "f1"}
+{"id": "cqa-0047", "topic": "强化学习", "qtype": "short", "question": "用不超过 12 个字回答：Q-learning 的核心是什么？", "answer": "值函数方法", "scorer": "em"}
+{"id": "cqa-0095", "topic": "数据挖掘", "qtype": "topic", "question": "置信度对应课程八个选题中的哪个知识主题？", "answer": "数据挖掘", "scorer": "em"}
+{"id": "cqa-0094", "topic": "数据挖掘", "qtype": "def", "question": "用一句话说明置信度的含义。", "answer": "置信度是在包含 X 的事务中同时包含 Y 的条件概率。", "scorer": "f1"}
+{"id": "cqa-0086", "topic": "数据挖掘", "qtype": "short", "question": "用不超过 12 个字回答：关联规则 的核心是什么？", "answer": "共现规律", "scorer": "em"}
+{"id": "cqa-0097", "topic": "数据挖掘", "qtype": "attr", "question": "置信度属于哪种概率？", "answer": "条件概率", "scorer": "em"}
+{"id": "cqa-0092", "topic": "数据挖掘", "qtype": "attr", "question": "支持度衡量的是出现频率还是条件概率？", "answer": "出现频率", "scorer": "em"}
+{"id": "cqa-0084", "topic": "数据挖掘", "qtype": "def", "question": "请用一句话解释关联规则。", "answer": "关联规则挖掘事务数据中商品共同出现的规律，如一起被购买的商品组合。", "scorer": "f1"}
+{"id": "cqa-0089", "topic": "数据挖掘", "qtype": "def", "question": "用一句话说明支持度的含义。", "answer": "支持度是某商品组合在所有事务中出现的比例。", "scorer": "f1"}
+{"id": "cqa-0087", "topic": "数据挖掘", "qtype": "attr", "question": "关联规则挖掘的典型数据是什么？", "answer": "交易记录", "scorer": "em"}
+{"id": "cqa-0091", "topic": "数据挖掘", "qtype": "short", "question": "用不超过 12 个字回答：支持度 的核心是什么？", "answer": "support", "scorer": "em"}
+{"id": "cqa-0150", "topic": "信息论", "qtype": "def", "question": "什么是信息熵？请简要说明。", "answer": "信息熵度量信源的平均不确定性，是压缩的理论下界。", "scorer": "f1"}
+{"id": "cqa-0151", "topic": "信息论", "qtype": "def", "question": "请用一句话解释信息熵。", "answer": "信息熵度量信源的平均不确定性，是压缩的理论下界。", "scorer": "f1"}
+{"id": "cqa-0152", "topic": "信息论", "qtype": "topic", "question": "「信息熵」属于本课程哪个主题？", "answer": "信息论", "scorer": "em"}
+{"id": "cqa-0155", "topic": "信息论", "qtype": "def", "question": "用一句话说明无损压缩的含义。", "answer": "无损压缩保证解压后与原数据完全一致。", "scorer": "f1"}
+{"id": "cqa-0159", "topic": "信息论", "qtype": "attr", "question": "无损压缩解压后是否与原文件一致？", "answer": "一致", "scorer": "em"}
+{"id": "cqa-0157", "topic": "信息论", "qtype": "topic", "question": "无损压缩对应课程八个选题中的哪个知识主题？", "answer": "信息论", "scorer": "em"}
+{"id": "cqa-0053", "topic": "机器学习", "qtype": "attr", "question": "过拟合时训练误差与测试误差的关系？", "answer": "训练误差低测试误差高", "scorer": "em"}
+{"id": "cqa-0050", "topic": "机器学习", "qtype": "def", "question": "什么是过拟合？请简要说明。", "answer": "过拟合指模型在训练集上表现好但在新数据上表现差，即记住噪声而非规律。", "scorer": "f1"}
+{"id": "cqa-0055", "topic": "机器学习", "qtype": "def", "question": "什么是监督学习？请简要说明。", "answer": "监督学习利用带标签的训练数据学习输入到输出的映射。", "scorer": "f1"}
+{"id": "cqa-0058", "topic": "机器学习", "qtype": "attr", "question": "监督学习的训练数据是否带标签？", "answer": "带标签", "scorer": "em"}
+{"id": "cqa-0054", "topic": "机器学习", "qtype": "def", "question": "请用一句话解释监督学习。", "answer": "监督学习利用带标签的训练数据学习输入到输出的映射。", "scorer": "f1"}
+{"id": "cqa-0049", "topic": "机器学习", "qtype": "def", "question": "请用一句话解释过拟合。", "answer": "过拟合指模型在训练集上表现好但在新数据上表现差，即记住噪声而非规律。", "scorer": "f1"}

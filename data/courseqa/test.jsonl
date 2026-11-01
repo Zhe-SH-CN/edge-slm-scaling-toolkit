@@ -1,0 +1,32 @@
+{"id": "cqa-0008", "topic": "密码与安全", "qtype": "short", "question": "用不超过 12 个字回答：对称加密 的核心是什么？", "answer": "同一把密钥", "scorer": "em"}
+{"id": "cqa-0009", "topic": "密码与安全", "qtype": "attr", "question": "对称加密的加解密密钥是否相同？", "answer": "相同", "scorer": "em"}
+{"id": "cqa-0006", "topic": "密码与安全", "qtype": "def", "question": "什么是对称加密？请简要说明。", "answer": "对称加密指加密与解密使用同一把密钥的加密方式。", "scorer": "f1"}
+{"id": "cqa-0027", "topic": "密码与安全", "qtype": "topic", "question": "「弱 RSA 密钥」属于本课程哪个主题？", "answer": "密码与安全", "scorer": "em"}
+{"id": "cqa-0007", "topic": "密码与安全", "qtype": "topic", "question": "「对称加密」属于本课程哪个主题？", "answer": "密码与安全", "scorer": "em"}
+{"id": "cqa-0074", "topic": "数据结构", "qtype": "def", "question": "用一句话说明哈夫曼树的含义。", "answer": "哈夫曼树是按字符频率构建的最优二叉前缀编码树，频率越高编码越短。", "scorer": "f1"}
+{"id": "cqa-0064", "topic": "数据结构", "qtype": "def", "question": "请用一句话解释Dijkstra 算法。", "answer": "Dijkstra 算法用贪心策略求非负权图的单源最短路径。", "scorer": "f1"}
+{"id": "cqa-0071", "topic": "数据结构", "qtype": "topic", "question": "A* 算法对应课程八个选题中的哪个知识主题？", "answer": "数据结构", "scorer": "em"}
+{"id": "cqa-0061", "topic": "数据结构", "qtype": "topic", "question": "BFS对应课程八个选题中的哪个知识主题？", "answer": "数据结构", "scorer": "em"}
+{"id": "cqa-0113", "topic": "大模型", "qtype": "def", "question": "请用一句话解释token。", "answer": "token 是模型处理文本的最小单元，由分词器把文本切分得到。", "scorer": "f1"}
+{"id": "cqa-0132", "topic": "大模型", "qtype": "def", "question": "什么是SFT？请简要说明。", "answer": "SFT 用带标签的指令-回答数据对模型做监督微调。", "scorer": "f1"}
+{"id": "cqa-0127", "topic": "大模型", "qtype": "def", "question": "请用一句话解释量化。", "answer": "量化用更低比特表示权重与激活，以减少显存与加速推理。", "scorer": "f1"}
+{"id": "cqa-0129", "topic": "大模型", "qtype": "topic", "question": "「量化」属于本课程哪个主题？", "answer": "大模型", "scorer": "em"}
+{"id": "cqa-0135", "topic": "大模型", "qtype": "short", "question": "用不超过 12 个字回答：SFT 的核心是什么？", "answer": "监督微调", "scorer": "em"}
+{"id": "cqa-0125", "topic": "大模型", "qtype": "short", "question": "用不超过 12 个字回答：LoRA 的核心是什么？", "answer": "低秩适配", "scorer": "em"}
+{"id": "cqa-0118", "topic": "大模型", "qtype": "def", "question": "什么是微调？请简要说明。", "answer": "微调是在预训练模型上用任务数据继续训练，使其适配特定任务。", "scorer": "f1"}
+{"id": "cqa-0146", "topic": "计算理论", "qtype": "def", "question": "什么是时间复杂度？请简要说明。", "answer": "时间复杂度描述算法运行时间随输入规模增长的阶。", "scorer": "f1"}
+{"id": "cqa-0141", "topic": "计算理论", "qtype": "def", "question": "什么是图灵机？请简要说明。", "answer": "图灵机是描述可计算性的抽象数学模型，是现代计算机的理论基础。", "scorer": "f1"}
+{"id": "cqa-0163", "topic": "编码", "qtype": "short", "question": "用不超过 12 个字回答：二进制 的核心是什么？", "answer": "基数为2", "scorer": "em"}
+{"id": "cqa-0168", "topic": "编码", "qtype": "short", "question": "用不超过 12 个字回答：字节 的核心是什么？", "answer": "8 位", "scorer": "em"}
+{"id": "cqa-0100", "topic": "数据库", "qtype": "topic", "question": "「主键」属于本课程哪个主题？", "answer": "数据库", "scorer": "em"}
+{"id": "cqa-0001", "topic": "计算机网络", "qtype": "def", "question": "请用一句话解释P2P 通信。", "answer": "P2P 通信指网络中各设备地位平等、不依赖中心服务器直接交换数据的通信方式。", "scorer": "f1"}
+{"id": "cqa-0030", "topic": "强化学习", "qtype": "def", "question": "用一句话说明智能体的含义。", "answer": "智能体是在环境中感知状态、采取动作并以奖励为目标进行学习的决策主体。", "scorer": "f1"}
+{"id": "cqa-0040", "topic": "强化学习", "qtype": "def", "question": "用一句话说明奖励函数的含义。", "answer": "奖励函数把状态与动作映射为标量反馈，定义任务的优化目标。", "scorer": "f1"}
+{"id": "cqa-0043", "topic": "强化学习", "qtype": "attr", "question": "强化学习的目标通常是最大化什么？", "answer": "累积奖励", "scorer": "em"}
+{"id": "cqa-0085", "topic": "数据挖掘", "qtype": "topic", "question": "关联规则对应课程八个选题中的哪个知识主题？", "answer": "数据挖掘", "scorer": "em"}
+{"id": "cqa-0083", "topic": "数据挖掘", "qtype": "def", "question": "用一句话说明关联规则的含义。", "answer": "关联规则挖掘事务数据中商品共同出现的规律，如一起被购买的商品组合。", "scorer": "f1"}
+{"id": "cqa-0088", "topic": "数据挖掘", "qtype": "def", "question": "请用一句话解释支持度。", "answer": "支持度是某商品组合在所有事务中出现的比例。", "scorer": "f1"}
+{"id": "cqa-0153", "topic": "信息论", "qtype": "short", "question": "用不超过 12 个字回答：信息熵 的核心是什么？", "answer": "不确定性的度量", "scorer": "em"}
+{"id": "cqa-0154", "topic": "信息论", "qtype": "attr", "question": "信息熵越高表示不确定性越怎样？", "answer": "越高", "scorer": "em"}
+{"id": "cqa-0057", "topic": "机器学习", "qtype": "short", "question": "用不超过 12 个字回答：监督学习 的核心是什么？", "answer": "有标签数据", "scorer": "em"}
+{"id": "cqa-0052", "topic": "机器学习", "qtype": "short", "question": "用不超过 12 个字回答：过拟合 的核心是什么？", "answer": "训练好测试差", "scorer": "em"}

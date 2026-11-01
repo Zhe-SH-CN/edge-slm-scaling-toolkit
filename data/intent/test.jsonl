@@ -1,0 +1,192 @@
+{"id": "int-0895", "text": "天气真不错？", "label": "闲聊"}
+{"id": "int-0521", "text": "能给我支持度的代码仓库链接吗", "label": "资源请求"}
+{"id": "int-0165", "text": "请问我的训练 loss 不降，作业怎么交～", "label": "作业求助"}
+{"id": "int-0387", "text": "跑 强化学习 的时候报 ImportError", "label": "代码调试"}
+{"id": "int-0506", "text": "哪里有关联规则的公开数据集", "label": "资源请求"}
+{"id": "int-0941", "text": "麻烦问下周末有什么安排", "label": "闲聊"}
+{"id": "int-0662", "text": "我们把图灵机这部分分给谁", "label": "项目协作"}
+{"id": "int-0681", "text": "下次组会什么时候开!", "label": "项目协作"}
+{"id": "int-0614", "text": "哪里有强化学习的公开数据集", "label": "资源请求"}
+{"id": "int-0280", "text": "选题五的微调部分怎么做", "label": "作业求助"}
+{"id": "int-0243", "text": "我的训练 loss 不降，作业怎么交", "label": "作业求助"}
+{"id": "int-0929", "text": "周末有什么安排", "label": "闲聊"}
+{"id": "int-0537", "text": "推荐几篇信息熵的论文", "label": "资源请求"}
+{"id": "int-0051", "text": "帮我解释一下Transformer", "label": "概念解释"}
+{"id": "int-0515", "text": "hi，能给我支持度的代码仓库链接吗", "label": "资源请求"}
+{"id": "int-0541", "text": "求一份BFS的入门资料", "label": "资源请求"}
+{"id": "int-0530", "text": "哪里有支持度的公开数据集", "label": "资源请求"}
+{"id": "int-0392", "text": "我的训练代码报 CUDA out of memory 怎么办", "label": "代码调试"}
+{"id": "int-0115", "text": "能讲讲关联规则的原理吗", "label": "概念解释"}
+{"id": "int-0732", "text": "答辩 PPT 谁来做", "label": "项目协作"}
+{"id": "int-0118", "text": "前缀编码和RSA有什么区别", "label": "概念解释"}
+{"id": "int-0391", "text": "bitsandbytes 装不上怎么解决", "label": "代码调试"}
+{"id": "int-0807", "text": "麻烦问下你好呀", "label": "闲聊"}
+{"id": "int-0531", "text": "推荐几篇自注意力的论文", "label": "资源请求"}
+{"id": "int-0716", "text": "hi，我们把强化学习这部分分给谁", "label": "项目协作"}
+{"id": "int-0344", "text": "我的训练代码报 CUDA out of memory 怎么办", "label": "代码调试"}
+{"id": "int-0647", "text": "麻烦问下谁负责写技术报告", "label": "项目协作"}
+{"id": "int-0366", "text": "为什么我的 eval 脚本结果和训练时不一致", "label": "代码调试"}
+{"id": "int-0251", "text": "我的量化实验报告不会写!", "label": "作业求助"}
+{"id": "int-0347", "text": "load 权重报错 state_dict 不匹配？", "label": "代码调试"}
+{"id": "int-0617", "text": "能给我Dijkstra的代码仓库链接吗!", "label": "资源请求"}
+{"id": "int-0481", "text": "请问求一份关联规则的入门资料", "label": "资源请求"}
+{"id": "int-0625", "text": "hi，求一份过拟合的入门资料", "label": "资源请求"}
+{"id": "int-0305", "text": "我的Transformer实验报告不会写", "label": "作业求助"}
+{"id": "int-0514", "text": "有BFS的中文教程吗", "label": "资源请求"}
+{"id": "int-0312", "text": "作业要求比较微调前后效果，该怎么设计", "label": "作业求助"}
+{"id": "int-0002", "text": "麻烦问下Dijkstra是什么意思", "label": "概念解释"}
+{"id": "int-0657", "text": "下次组会什么时候开？", "label": "项目协作"}
+{"id": "int-0403", "text": "hi，bitsandbytes 装不上怎么解决", "label": "代码调试"}
+{"id": "int-0425", "text": "load 权重报错 state_dict 不匹配", "label": "代码调试"}
+{"id": "int-0572", "text": "哪里有数字签名的公开数据集", "label": "资源请求"}
+{"id": "int-0946", "text": "这门课好难啊哈哈", "label": "闲聊"}
+{"id": "int-0660", "text": "答辩 PPT 谁来做", "label": "项目协作"}
+{"id": "int-0017", "text": "麻烦问下通俗地说BFS是什么", "label": "概念解释"}
+{"id": "int-0577", "text": "求一份信息熵的入门资料!", "label": "资源请求"}
+{"id": "int-0032", "text": "自注意力是什么意思", "label": "概念解释"}
+{"id": "int-0052", "text": "图灵机和支持度有什么区别", "label": "概念解释"}
+{"id": "int-0522", "text": "有没有哈夫曼编码的课件", "label": "资源请求"}
+{"id": "int-0016", "text": "BFS和前缀编码有什么区别？", "label": "概念解释"}
+{"id": "int-0264", "text": "作业要求比较微调前后效果，该怎么设计", "label": "作业求助"}
+{"id": "int-0906", "text": "麻烦问下刚打完球回来", "label": "闲聊"}
+{"id": "int-0340", "text": "模型输出全是乱码，代码哪里错了", "label": "代码调试"}
+{"id": "int-0188", "text": "hi，实验的消融部分要怎么做", "label": "作业求助"}
+{"id": "int-0461", "text": "load 权重报错 state_dict 不匹配", "label": "代码调试"}
+{"id": "int-0806", "text": "今天食堂好多人", "label": "闲聊"}
+{"id": "int-0938", "text": "今天食堂好多人", "label": "闲聊"}
+{"id": "int-0128", "text": "Transformer是什么意思", "label": "概念解释"}
+{"id": "int-0421", "text": "bitsandbytes 装不上怎么解决", "label": "代码调试"}
+{"id": "int-0444", "text": "为什么我的 eval 脚本结果和训练时不一致!", "label": "代码调试"}
+{"id": "int-0917", "text": "周末有什么安排", "label": "闲聊"}
+{"id": "int-0323", "text": "load 权重报错 state_dict 不匹配", "label": "代码调试"}
+{"id": "int-0292", "text": "选题五的微调部分怎么做", "label": "作业求助"}
+{"id": "int-0401", "text": "hi，load 权重报错 state_dict 不匹配", "label": "代码调试"}
+{"id": "int-0202", "text": "选题五的微调部分怎么做", "label": "作业求助"}
+{"id": "int-0923", "text": "周末有什么安排～", "label": "闲聊"}
+{"id": "int-0771", "text": "下次组会什么时候开", "label": "项目协作"}
+{"id": "int-0855", "text": "你好呀", "label": "闲聊"}
+{"id": "int-0931", "text": "麻烦问下天气真不错", "label": "闲聊"}
+{"id": "int-0791", "text": "麻烦问下谁负责写技术报告", "label": "项目协作"}
+{"id": "int-0546", "text": "有没有Transformer的课件～", "label": "资源请求"}
+{"id": "int-0651", "text": "下次组会什么时候开!", "label": "项目协作"}
+{"id": "int-0819", "text": "你好呀", "label": "闲聊"}
+{"id": "int-0201", "text": "我的训练 loss 不降，作业怎么交", "label": "作业求助"}
+{"id": "int-0076", "text": "hi，量化和关联规则有什么区别", "label": "概念解释"}
+{"id": "int-0410", "text": "我的训练代码报 CUDA out of memory 怎么办", "label": "代码调试"}
+{"id": "int-0882", "text": "请问刚打完球回来", "label": "闲聊"}
+{"id": "int-0297", "text": "我的训练 loss 不降，作业怎么交", "label": "作业求助"}
+{"id": "int-0935", "text": "hi，周末有什么安排", "label": "闲聊"}
+{"id": "int-0140", "text": "数字签名是什么意思", "label": "概念解释"}
+{"id": "int-0595", "text": "求一份过拟合的入门资料", "label": "资源请求"}
+{"id": "int-0887", "text": "周末有什么安排", "label": "闲聊"}
+{"id": "int-0277", "text": "麻烦问下数字签名这道题思路是什么", "label": "作业求助"}
+{"id": "int-0269", "text": "hi，我的量化实验报告不会写", "label": "作业求助"}
+{"id": "int-0696", "text": "答辩 PPT 谁来做？", "label": "项目协作"}
+{"id": "int-0423", "text": "跑 LoRA 的时候报 ImportError", "label": "代码调试"}
+{"id": "int-0800", "text": "今天食堂好多人", "label": "闲聊"}
+{"id": "int-0759", "text": "下次组会什么时候开", "label": "项目协作"}
+{"id": "int-0700", "text": "我们组五个人怎么分工比较合理", "label": "项目协作"}
+{"id": "int-0656", "text": "我们把自注意力这部分分给谁", "label": "项目协作"}
+{"id": "int-0779", "text": "谁负责写技术报告", "label": "项目协作"}
+{"id": "int-0828", "text": "刚打完球回来", "label": "闲聊"}
+{"id": "int-0019", "text": "麻烦问下能讲讲前缀编码的原理吗", "label": "概念解释"}
+{"id": "int-0805", "text": "天气真不错", "label": "闲聊"}
+{"id": "int-0302", "text": "实验的消融部分要怎么做", "label": "作业求助"}
+{"id": "int-0870", "text": "刚打完球回来", "label": "闲聊"}
+{"id": "int-0858", "text": "刚打完球回来", "label": "闲聊"}
+{"id": "int-0010", "text": "自注意力和哈夫曼编码有什么区别", "label": "概念解释"}
+{"id": "int-0734", "text": "我们把量化这部分分给谁", "label": "项目协作"}
+{"id": "int-0058", "text": "关联规则和BFS有什么区别", "label": "概念解释"}
+{"id": "int-0723", "text": "下次组会什么时候开", "label": "项目协作"}
+{"id": "int-0580", "text": "请问有前缀编码的中文教程吗", "label": "资源请求"}
+{"id": "int-0162", "text": "作业要求比较微调前后效果，该怎么设计", "label": "作业求助"}
+{"id": "int-0316", "text": "选题五的微调部分怎么做", "label": "作业求助"}
+{"id": "int-0774", "text": "答辩 PPT 谁来做", "label": "项目协作"}
+{"id": "int-0285", "text": "请问我的训练 loss 不降，作业怎么交～", "label": "作业求助"}
+{"id": "int-0847", "text": "天气真不错!", "label": "闲聊"}
+{"id": "int-0884", "text": "今天食堂好多人", "label": "闲聊"}
+{"id": "int-0275", "text": "我的哈夫曼编码实验报告不会写", "label": "作业求助"}
+{"id": "int-0171", "text": "请问我的训练 loss 不降，作业怎么交", "label": "作业求助"}
+{"id": "int-0389", "text": "load 权重报错 state_dict 不匹配", "label": "代码调试"}
+{"id": "int-0384", "text": "为什么我的 eval 脚本结果和训练时不一致", "label": "代码调试"}
+{"id": "int-0833", "text": "周末有什么安排", "label": "闲聊"}
+{"id": "int-0551", "text": "麻烦问下能给我Transformer的代码仓库链接吗", "label": "资源请求"}
+{"id": "int-0592", "text": "有强化学习的中文教程吗", "label": "资源请求"}
+{"id": "int-0479", "text": "麻烦问下load 权重报错 state_dict 不匹配", "label": "代码调试"}
+{"id": "int-0810", "text": "hi，刚打完球回来", "label": "闲聊"}
+{"id": "int-0373", "text": "bitsandbytes 装不上怎么解决", "label": "代码调试"}
+{"id": "int-0663", "text": "下次组会什么时候开", "label": "项目协作"}
+{"id": "int-0507", "text": "推荐几篇前缀编码的论文", "label": "资源请求"}
+{"id": "int-0063", "text": "帮我解释一下LoRA", "label": "概念解释"}
+{"id": "int-0611", "text": "能给我数字签名的代码仓库链接吗", "label": "资源请求"}
+{"id": "int-0766", "text": "我们组五个人怎么分工比较合理", "label": "项目协作"}
+{"id": "int-0123", "text": "帮我解释一下Transformer", "label": "概念解释"}
+{"id": "int-0590", "text": "哪里有BFS的公开数据集", "label": "资源请求"}
+{"id": "int-0510", "text": "有没有数字签名的课件", "label": "资源请求"}
+{"id": "int-0631", "text": "求一份自注意力的入门资料!", "label": "资源请求"}
+{"id": "int-0854", "text": "今天食堂好多人!", "label": "闲聊"}
+{"id": "int-0192", "text": "作业要求比较微调前后效果，该怎么设计", "label": "作业求助"}
+{"id": "int-0354", "text": "麻烦问下为什么我的 eval 脚本结果和训练时不一致", "label": "代码调试"}
+{"id": "int-0172", "text": "选题五的微调部分怎么做", "label": "作业求助"}
+{"id": "int-0342", "text": "为什么我的 eval 脚本结果和训练时不一致", "label": "代码调试"}
+{"id": "int-0253", "text": "量化这道题思路是什么", "label": "作业求助"}
+{"id": "int-0353", "text": "麻烦问下load 权重报错 state_dict 不匹配", "label": "代码调试"}
+{"id": "int-0144", "text": "什么是图灵机？", "label": "概念解释"}
+{"id": "int-0936", "text": "hi，刚打完球回来!", "label": "闲聊"}
+{"id": "int-0885", "text": "你好呀", "label": "闲聊"}
+{"id": "int-0103", "text": "能讲讲信息熵的原理吗？", "label": "概念解释"}
+{"id": "int-0294", "text": "作业要求比较微调前后效果，该怎么设计", "label": "作业求助"}
+{"id": "int-0007", "text": "能讲讲数字签名的原理吗", "label": "概念解释"}
+{"id": "int-0532", "text": "有BFS的中文教程吗", "label": "资源请求"}
+{"id": "int-0147", "text": "帮我解释一下自注意力", "label": "概念解释"}
+{"id": "int-0198", "text": "作业要求比较微调前后效果，该怎么设计", "label": "作业求助"}
+{"id": "int-0378", "text": "为什么我的 eval 脚本结果和训练时不一致～", "label": "代码调试"}
+{"id": "int-0449", "text": "load 权重报错 state_dict 不匹配", "label": "代码调试"}
+{"id": "int-0871", "text": "天气真不错!", "label": "闲聊"}
+{"id": "int-0804", "text": "刚打完球回来", "label": "闲聊"}
+{"id": "int-0583", "text": "求一份强化学习的入门资料", "label": "资源请求"}
+{"id": "int-0798", "text": "答辩 PPT 谁来做", "label": "项目协作"}
+{"id": "int-0390", "text": "麻烦问下为什么我的 eval 脚本结果和训练时不一致", "label": "代码调试"}
+{"id": "int-0620", "text": "请问哪里有Transformer的公开数据集", "label": "资源请求"}
+{"id": "int-0168", "text": "作业要求比较微调前后效果，该怎么设计", "label": "作业求助"}
+{"id": "int-0714", "text": "答辩 PPT 谁来做", "label": "项目协作"}
+{"id": "int-0453", "text": "跑 LoRA 的时候报 ImportError", "label": "代码调试"}
+{"id": "int-0074", "text": "请问过拟合是什么意思", "label": "概念解释"}
+{"id": "int-0152", "text": "支持度是什么意思", "label": "概念解释"}
+{"id": "int-0618", "text": "有没有关联规则的课件", "label": "资源请求"}
+{"id": "int-0166", "text": "选题五的微调部分怎么做", "label": "作业求助"}
+{"id": "int-0881", "text": "周末有什么安排", "label": "闲聊"}
+{"id": "int-0341", "text": "麻烦问下load 权重报错 state_dict 不匹配", "label": "代码调试"}
+{"id": "int-0124", "text": "强化学习和前缀编码有什么区别？", "label": "概念解释"}
+{"id": "int-0643", "text": "实验结果怎么汇总到一起", "label": "项目协作"}
+{"id": "int-0233", "text": "我的Transformer实验报告不会写", "label": "作业求助"}
+{"id": "int-0291", "text": "我的训练 loss 不降，作业怎么交", "label": "作业求助"}
+{"id": "int-0445", "text": "bitsandbytes 装不上怎么解决", "label": "代码调试"}
+{"id": "int-0552", "text": "有没有强化学习的课件～", "label": "资源请求"}
+{"id": "int-0044", "text": "过拟合是什么意思？", "label": "概念解释"}
+{"id": "int-0765", "text": "下次组会什么时候开", "label": "项目协作"}
+{"id": "int-0939", "text": "你好呀", "label": "闲聊"}
+{"id": "int-0011", "text": "请问通俗地说自注意力是什么", "label": "概念解释"}
+{"id": "int-0808", "text": "这门课好难啊哈哈", "label": "闲聊"}
+{"id": "int-0750", "text": "答辩 PPT 谁来做", "label": "项目协作"}
+{"id": "int-0853", "text": "天气真不错", "label": "闲聊"}
+{"id": "int-0470", "text": "我的训练代码报 CUDA out of memory 怎么办", "label": "代码调试"}
+{"id": "int-0694", "text": "麻烦问下我们组五个人怎么分工比较合理", "label": "项目协作"}
+{"id": "int-0636", "text": "请问有没有过拟合的课件", "label": "资源请求"}
+{"id": "int-0093", "text": "帮我解释一下过拟合", "label": "概念解释"}
+{"id": "int-0762", "text": "答辩 PPT 谁来做", "label": "项目协作"}
+{"id": "int-0221", "text": "我的信息熵实验报告不会写", "label": "作业求助"}
+{"id": "int-0666", "text": "答辩 PPT 谁来做", "label": "项目协作"}
+{"id": "int-0428", "text": "我的训练代码报 CUDA out of memory 怎么办", "label": "代码调试"}
+{"id": "int-0220", "text": "hi，选题五的微调部分怎么做", "label": "作业求助"}
+{"id": "int-0334", "text": "模型输出全是乱码，代码哪里错了", "label": "代码调试"}
+{"id": "int-0068", "text": "麻烦问下量化是什么意思", "label": "概念解释"}
+{"id": "int-0310", "text": "选题五的微调部分怎么做～", "label": "作业求助"}
+{"id": "int-0190", "text": "选题五的微调部分怎么做!", "label": "作业求助"}
+{"id": "int-0705", "text": "下次组会什么时候开", "label": "项目协作"}
+{"id": "int-0548", "text": "哪里有强化学习的公开数据集", "label": "资源请求"}
+{"id": "int-0792", "text": "答辩 PPT 谁来做", "label": "项目协作"}
+{"id": "int-0898", "text": "这门课好难啊哈哈", "label": "闲聊"}
+{"id": "int-0194", "text": "实验的消融部分要怎么做", "label": "作业求助"}
+{"id": "int-0573", "text": "推荐几篇BFS的论文～", "label": "资源请求"}
+{"id": "int-0260", "text": "实验的消融部分要怎么做", "label": "作业求助"}

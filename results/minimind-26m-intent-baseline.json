@@ -1,0 +1,1584 @@
+{
+  "run_id": "minimind-26m-intent-baseline",
+  "config": {
+    "run_id": "minimind-26m-intent-baseline",
+    "model_key": "minimind-26m",
+    "task": "intent",
+    "method": "none",
+    "epochs": 2,
+    "batch_size": 4,
+    "grad_accum": 4,
+    "lr": 0.0002,
+    "max_seq_len": 512,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.01,
+    "seed": 42,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_target": "all",
+    "max_train_samples": null,
+    "noise_ratio": 0.0,
+    "dtype": "float16",
+    "attn": "sdpa",
+    "use_4bit": false,
+    "max_new_tokens": 128,
+    "do_sample": false,
+    "temperature": 1.0,
+    "extra": {}
+  },
+  "metrics": {
+    "accuracy": 0.0,
+    "macro_f1": 0.0,
+    "unmapped_rate": 1.0,
+    "overall": 0.0,
+    "n": 192,
+    "wall_sec": 46.0,
+    "sec_per_sample": 0.2396,
+    "peak_vram_mb": 370.9
+  },
+  "env": {
+    "ts": "2026-10-31 12:53:15",
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "gpu_name": "Tesla T4"
+  },
+  "per_sample": [
+    {
+      "id": "int-0895",
+      "text": "天气真不错？",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个具体的天气情况，但没有",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0521",
+      "text": "能给我支持度的代码仓库链接吗",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“能给我支持度的代码仓库链",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0165",
+      "text": "请问我的训练 loss 不降，作业怎么交～",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问用户在训练过程中是否能够通过训练来",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0387",
+      "text": "跑 强化学习 的时候报 ImportError",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“跑跑”是一种技术，它在训练过程中",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0506",
+      "text": "哪里有关联规则的公开数据集",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个特定领域的公开数据集",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0941",
+      "text": "麻烦问下周末有什么安排",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个活动或项目的具体安排，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0662",
+      "text": "我们把图灵机这部分分给谁",
+      "gold": "项目协作",
+      "raw": "这句话的意图是将图灵机的输出与图灵机的",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0681",
+      "text": "下次组会什么时候开!",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问下次组会什么时候开启",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0614",
+      "text": "哪里有强化学习的公开数据集",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“在某个平台上，有强化学习",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0280",
+      "text": "选题五的微调部分怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问选题中的“选题”或“",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0243",
+      "text": "我的训练 loss 不降，作业怎么交",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“我在训练过程中，我负责了训练",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0929",
+      "text": "周末有什么安排",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问周末的安排，询问周末",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0537",
+      "text": "推荐几篇信息熵的论文",
+      "gold": "资源请求",
+      "raw": "这句话的意图是推荐一篇关于“如何提高工作效率”的论",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0051",
+      "text": "帮我解释一下Transformer",
+      "gold": "概念解释",
+      "raw": "这句话的意图是帮助用户理解并解决问题，即通过使用Trans",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0515",
+      "text": "hi，能给我支持度的代码仓库链接吗",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“我能帮你解决一个问题，但我",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0541",
+      "text": "求一份BFS的入门资料",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个具体的BFS入门",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0530",
+      "text": "哪里有支持度的公开数据集",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“提供资源”，它可以被看作是一个资源",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0392",
+      "text": "我的训练代码报 CUDA out of memory 怎么办",
+      "gold": "代码调试",
+      "raw": "这句话的意图是，如果我训练代码报，我希望能够帮助",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0115",
+      "text": "能讲讲关联规则的原理吗",
+      "gold": "概念解释",
+      "raw": "这句话的意图是“关联规则”，即关联规则是通过",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0732",
+      "text": "答辩 PPT 谁来做",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否可以做某件事情，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0118",
+      "text": "前缀编码和RSA有什么区别",
+      "gold": "概念解释",
+      "raw": "这句话的意图是询问某个问题或任务的具体内容，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0391",
+      "text": "bitsandbytes 装不上怎么解决",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问某个问题是否需要帮助解决，但",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0807",
+      "text": "麻烦问下你好呀",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问用户是否有关于某个特定主题的",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0531",
+      "text": "推荐几篇自注意力的论文",
+      "gold": "资源请求",
+      "raw": "这句话的意图是推荐一篇关于自注意力的论文，它可能",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0716",
+      "text": "hi，我们把强化学习这部分分给谁",
+      "gold": "项目协作",
+      "raw": "这句话的意图是“强化学习”或“强化学习”。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0344",
+      "text": "我的训练代码报 CUDA out of memory 怎么办",
+      "gold": "代码调试",
+      "raw": "这句话的意图是，如果我训练代码报，我希望能够帮助",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0647",
+      "text": "麻烦问下谁负责写技术报告",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问某个技术报告的主题或问题，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0366",
+      "text": "为什么我的 eval 脚本结果和训练时不一致",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问脚本结果和训练时不一致",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0251",
+      "text": "我的量化实验报告不会写!",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问某人是否能够写出量化实验",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0347",
+      "text": "load 权重报错 state_dict 不匹配？",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“权重报错”。\n在编程中，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0617",
+      "text": "能给我Dijkstra的代码仓库链接吗!",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“能给我Dijkstra的代码",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0481",
+      "text": "请问求一份关联规则的入门资料",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个特定领域或项目的关联",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0625",
+      "text": "hi，求一份过拟合的入门资料",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个问题是否需要通过某种方式",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0305",
+      "text": "我的Transformer实验报告不会写",
+      "gold": "作业求助",
+      "raw": "这句话的意图是，我认为我的Transformer实验报告不会",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0514",
+      "text": "有BFS的中文教程吗",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“有BFS的中文教程”。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0312",
+      "text": "作业要求比较微调前后效果，该怎么设计",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“比较微调前后效果，该如何设计",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0002",
+      "text": "麻烦问下Dijkstra是什么意思",
+      "gold": "概念解释",
+      "raw": "这句话的意图是询问某人是否有某种特定的、",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0657",
+      "text": "下次组会什么时候开？",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问下次组会什么时候开启",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0403",
+      "text": "hi，bitsandbytes 装不上怎么解决",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问某人是否在某个项目中遇到",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0425",
+      "text": "load 权重报错 state_dict 不匹配",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“权重报错”，意图是“权",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0572",
+      "text": "哪里有数字签名的公开数据集",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个特定数字签名的公开",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0946",
+      "text": "这门课好难啊哈哈",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个学生是否在某个课程中",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0660",
+      "text": "答辩 PPT 谁来做",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否可以做某件事情，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0017",
+      "text": "麻烦问下通俗地说BFS是什么",
+      "gold": "概念解释",
+      "raw": "这句话的意图是“通俗地说”，意图是“",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0577",
+      "text": "求一份信息熵的入门资料!",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个信息熵的入门资",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0032",
+      "text": "自注意力是什么意思",
+      "gold": "概念解释",
+      "raw": "这句话的意图是“自注意力”或“注意力”。它",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0052",
+      "text": "图灵机和支持度有什么区别",
+      "gold": "概念解释",
+      "raw": "这句话的意图是描述图灵机和支持度之间的关系，其中",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0522",
+      "text": "有没有哈夫曼编码的课件",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个特定领域的课程或项目，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0016",
+      "text": "BFS和前缀编码有什么区别？",
+      "gold": "概念解释",
+      "raw": "这句话的意图是询问某个问题或任务的具体内容，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0264",
+      "text": "作业要求比较微调前后效果，该怎么设计",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“比较微调前后效果，该如何设计",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0906",
+      "text": "麻烦问下刚打完球回来",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某人是否完成了某个任务，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0340",
+      "text": "模型输出全是乱码，代码哪里错了",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“模型输出全是乱码，代码哪",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0188",
+      "text": "hi，实验的消融部分要怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问某个问题或任务的具体内容，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0461",
+      "text": "load 权重报错 state_dict 不匹配",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“权重报错”，意图是“权",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0806",
+      "text": "今天食堂好多人",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问关于今天的食堂如何提供食物",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0938",
+      "text": "今天食堂好多人",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问关于今天的食堂如何提供食物",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0128",
+      "text": "Transformer是什么意思",
+      "gold": "概念解释",
+      "raw": "这句话的意思是“Transformer是一种编程语言，它可以",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0421",
+      "text": "bitsandbytes 装不上怎么解决",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问某个问题是否需要帮助解决，但",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0444",
+      "text": "为什么我的 eval 脚本结果和训练时不一致!",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问脚本结果和训练时不一致",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0917",
+      "text": "周末有什么安排",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问周末的安排，询问周末",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0323",
+      "text": "load 权重报错 state_dict 不匹配",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“权重报错”，意图是“权",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0292",
+      "text": "选题五的微调部分怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问选题中的“选题”或“",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0401",
+      "text": "hi，load 权重报错 state_dict 不匹配",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问某人是否在某个特定的权",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0202",
+      "text": "选题五的微调部分怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问选题中的“选题”或“",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0923",
+      "text": "周末有什么安排～",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问周末的安排，但没有提供具体",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0771",
+      "text": "下次组会什么时候开",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问下次组会什么时候开。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0855",
+      "text": "你好呀",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问用户是否愿意提供帮助，或者询",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0931",
+      "text": "麻烦问下天气真不错",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个地方的天气情况，比如",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0791",
+      "text": "麻烦问下谁负责写技术报告",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问某个技术报告的主题或问题，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0546",
+      "text": "有没有Transformer的课件～",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个具体的、具体的、具体",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0651",
+      "text": "下次组会什么时候开!",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问下次组会什么时候开启",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0819",
+      "text": "你好呀",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问用户是否愿意提供帮助，或者询",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0201",
+      "text": "我的训练 loss 不降，作业怎么交",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“我在训练过程中，我负责了训练",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0076",
+      "text": "hi，量化和关联规则有什么区别",
+      "gold": "概念解释",
+      "raw": "这句话的意图是“量化和关联规则”的区别",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0410",
+      "text": "我的训练代码报 CUDA out of memory 怎么办",
+      "gold": "代码调试",
+      "raw": "这句话的意图是，如果我训练代码报，我希望能够帮助",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0882",
+      "text": "请问刚打完球回来",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问刚打完球回来的具体",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0297",
+      "text": "我的训练 loss 不降，作业怎么交",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“我在训练过程中，我负责了训练",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0935",
+      "text": "hi，周末有什么安排",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某人是否有时间安排，或者是否",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0140",
+      "text": "数字签名是什么意思",
+      "gold": "概念解释",
+      "raw": "这句话的意图是询问数字签名是否正确，即数字签",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0595",
+      "text": "求一份过拟合的入门资料",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个问题是否需要帮助解决某个",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0887",
+      "text": "周末有什么安排",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问周末的安排，询问周末",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0277",
+      "text": "麻烦问下数字签名这道题思路是什么",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问某人是否需要帮助解决某个问题",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0269",
+      "text": "hi，我的量化实验报告不会写",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“我不会写”，因为它表达了一种不",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0696",
+      "text": "答辩 PPT 谁来做？",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否有某种方式帮助对方完成",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0423",
+      "text": "跑 LoRA 的时候报 ImportError",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问如何在编程中使用“跑”这个",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0800",
+      "text": "今天食堂好多人",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问关于今天的食堂如何提供食物",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0759",
+      "text": "下次组会什么时候开",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问下次组会什么时候开。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0700",
+      "text": "我们组五个人怎么分工比较合理",
+      "gold": "项目协作",
+      "raw": "这句话的意图是“分工比较合理”。它指出，每个人",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0656",
+      "text": "我们把自注意力这部分分给谁",
+      "gold": "项目协作",
+      "raw": "这句话的意图是“我将把自注意力这部分分给",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0779",
+      "text": "谁负责写技术报告",
+      "gold": "项目协作",
+      "raw": "这句话的意图是“谁负责写技术报告”，意图",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0828",
+      "text": "刚打完球回来",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某人是否完成了某个任务，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0019",
+      "text": "麻烦问下能讲讲前缀编码的原理吗",
+      "gold": "概念解释",
+      "raw": "这句话的意图是询问某个问题或问题的答案是否能",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0805",
+      "text": "天气真不错",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个具体的天气情况，比如天气",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0302",
+      "text": "实验的消融部分要怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问某个实验的消融部分要",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0870",
+      "text": "刚打完球回来",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某人是否完成了某个任务，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0858",
+      "text": "刚打完球回来",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某人是否完成了某个任务，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0010",
+      "text": "自注意力和哈夫曼编码有什么区别",
+      "gold": "概念解释",
+      "raw": "这句话的意图是“自注意力机制”或“自注意力",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0734",
+      "text": "我们把量化这部分分给谁",
+      "gold": "项目协作",
+      "raw": "这句话的意图是将量化这部分分给谁，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0058",
+      "text": "关联规则和BFS有什么区别",
+      "gold": "概念解释",
+      "raw": "这句话的意图是关联规则和逻辑，其中“关联规则",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0723",
+      "text": "下次组会什么时候开",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问下次组会什么时候开。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0580",
+      "text": "请问有前缀编码的中文教程吗",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个特定领域或主题的中文",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0162",
+      "text": "作业要求比较微调前后效果，该怎么设计",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“比较微调前后效果，该如何设计",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0316",
+      "text": "选题五的微调部分怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问选题中的“选题”或“",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0774",
+      "text": "答辩 PPT 谁来做",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否可以做某件事情，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0285",
+      "text": "请问我的训练 loss 不降，作业怎么交～",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问用户在训练过程中是否能够通过训练来",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0847",
+      "text": "天气真不错!",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个具体的天气情况，比如天气",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0884",
+      "text": "今天食堂好多人",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问关于今天的食堂如何提供食物",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0275",
+      "text": "我的哈夫曼编码实验报告不会写",
+      "gold": "作业求助",
+      "raw": "这句话的意图是，如果我有关于哈夫曼编码",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0171",
+      "text": "请问我的训练 loss 不降，作业怎么交",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问用户在训练过程中是否能够通过某种",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0389",
+      "text": "load 权重报错 state_dict 不匹配",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“权重报错”，意图是“权",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0384",
+      "text": "为什么我的 eval 脚本结果和训练时不一致",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问脚本结果和训练时不一致",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0833",
+      "text": "周末有什么安排",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问周末的安排，询问周末",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0551",
+      "text": "麻烦问下能给我Transformer的代码仓库链接吗",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“可以给我Transformer的代码仓",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0592",
+      "text": "有强化学习的中文教程吗",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“有强化学习的中文教程”。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0479",
+      "text": "麻烦问下load 权重报错 state_dict 不匹配",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“麻烦问下load权重",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0810",
+      "text": "hi，刚打完球回来",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某人是否完成了某个项目，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0373",
+      "text": "bitsandbytes 装不上怎么解决",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问某个问题是否需要帮助解决，但",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0663",
+      "text": "下次组会什么时候开",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问下次组会什么时候开。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0507",
+      "text": "推荐几篇前缀编码的论文",
+      "gold": "资源请求",
+      "raw": "这句话的意图是推荐一篇关于“推荐几篇前缀编",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0063",
+      "text": "帮我解释一下LoRA",
+      "gold": "概念解释",
+      "raw": "这句话的意图是帮助用户解决问题或完成任务，通常是为了提供",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0611",
+      "text": "能给我数字签名的代码仓库链接吗",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“能给我数字签名的代码仓库",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0766",
+      "text": "我们组五个人怎么分工比较合理",
+      "gold": "项目协作",
+      "raw": "这句话的意图是“分工比较合理”。它指出，每个人",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0123",
+      "text": "帮我解释一下Transformer",
+      "gold": "概念解释",
+      "raw": "这句话的意图是帮助用户理解并解决问题，即通过使用Trans",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0590",
+      "text": "哪里有BFS的公开数据集",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个特定领域或项目的公开",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0510",
+      "text": "有没有数字签名的课件",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某人是否有数字签名的课程",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0631",
+      "text": "求一份自注意力的入门资料!",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某人是否在某个领域内有",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0854",
+      "text": "今天食堂好多人!",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问关于今天的食堂，并询",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0192",
+      "text": "作业要求比较微调前后效果，该怎么设计",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“比较微调前后效果，该如何设计",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0354",
+      "text": "麻烦问下为什么我的 eval 脚本结果和训练时不一致",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问麻烦的脚本结果和",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0172",
+      "text": "选题五的微调部分怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问选题中的“选题”或“",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0342",
+      "text": "为什么我的 eval 脚本结果和训练时不一致",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问脚本结果和训练时不一致",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0253",
+      "text": "量化这道题思路是什么",
+      "gold": "作业求助",
+      "raw": "这句话的意图是将数学问题转化为数学问题，并通过",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0353",
+      "text": "麻烦问下load 权重报错 state_dict 不匹配",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“麻烦问下load权重",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0144",
+      "text": "什么是图灵机？",
+      "gold": "概念解释",
+      "raw": "图灵机是一种计算机科学的计算模型，它将计算机程序的输出",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0936",
+      "text": "hi，刚打完球回来!",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某人是否完成了某个任务，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0885",
+      "text": "你好呀",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问用户是否愿意提供帮助，或者询",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0103",
+      "text": "能讲讲信息熵的原理吗？",
+      "gold": "概念解释",
+      "raw": "这句话的意图是“信息熵的原理”。信息熵是一种",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0294",
+      "text": "作业要求比较微调前后效果，该怎么设计",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“比较微调前后效果，该如何设计",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0007",
+      "text": "能讲讲数字签名的原理吗",
+      "gold": "概念解释",
+      "raw": "这句话的意图是询问数字签名的原理，即数字签",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0532",
+      "text": "有BFS的中文教程吗",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“有BFS的中文教程”。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0147",
+      "text": "帮我解释一下自注意力",
+      "gold": "概念解释",
+      "raw": "这句话的意图是帮助人们更有效地处理信息，而不是仅仅",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0198",
+      "text": "作业要求比较微调前后效果，该怎么设计",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“比较微调前后效果，该如何设计",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0378",
+      "text": "为什么我的 eval 脚本结果和训练时不一致～",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“我脚本结果和训练时不一致",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0449",
+      "text": "load 权重报错 state_dict 不匹配",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“权重报错”，意图是“权",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0871",
+      "text": "天气真不错!",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个具体的天气情况，比如天气",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0804",
+      "text": "刚打完球回来",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某人是否完成了某个任务，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0583",
+      "text": "求一份强化学习的入门资料",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个特定领域的入门资料",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0798",
+      "text": "答辩 PPT 谁来做",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否可以做某件事情，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0390",
+      "text": "麻烦问下为什么我的 eval 脚本结果和训练时不一致",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问麻烦的脚本结果和",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0620",
+      "text": "请问哪里有Transformer的公开数据集",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个特定领域的公开数据集",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0168",
+      "text": "作业要求比较微调前后效果，该怎么设计",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“比较微调前后效果，该如何设计",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0714",
+      "text": "答辩 PPT 谁来做",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否可以做某件事情，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0453",
+      "text": "跑 LoRA 的时候报 ImportError",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问如何在编程中使用“跑”这个",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0074",
+      "text": "请问过拟合是什么意思",
+      "gold": "概念解释",
+      "raw": "这句话的意思是，过拟合是指在训练数据上训练一个",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0152",
+      "text": "支持度是什么意思",
+      "gold": "概念解释",
+      "raw": "这句话的意图是支持度，即支持度，即支持度。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0618",
+      "text": "有没有关联规则的课件",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个具体的课件或项目，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0166",
+      "text": "选题五的微调部分怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问选题中的“选题”或“",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0881",
+      "text": "周末有什么安排",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问周末的安排，询问周末",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0341",
+      "text": "麻烦问下load 权重报错 state_dict 不匹配",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“麻烦问下load权重",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0124",
+      "text": "强化学习和前缀编码有什么区别？",
+      "gold": "概念解释",
+      "raw": "这句话的意图是“强化学习”和“学习”两个概念",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0643",
+      "text": "实验结果怎么汇总到一起",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问某个实验结果如何汇总到一起",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0233",
+      "text": "我的Transformer实验报告不会写",
+      "gold": "作业求助",
+      "raw": "这句话的意图是，我认为我的Transformer实验报告不会",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0291",
+      "text": "我的训练 loss 不降，作业怎么交",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“我在训练过程中，我负责了训练",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0445",
+      "text": "bitsandbytes 装不上怎么解决",
+      "gold": "代码调试",
+      "raw": "这句话的意图是询问某个问题是否需要帮助解决，但",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0552",
+      "text": "有没有强化学习的课件～",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“有没有强化学习的课件�",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0044",
+      "text": "过拟合是什么意思？",
+      "gold": "概念解释",
+      "raw": "这句话的意思是，过拟合是指在训练数据上表现得",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0765",
+      "text": "下次组会什么时候开",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问下次组会什么时候开。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0939",
+      "text": "你好呀",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问用户是否愿意提供帮助，或者询",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0011",
+      "text": "请问通俗地说自注意力是什么",
+      "gold": "概念解释",
+      "raw": "这句话的意图是“自注意力”，意图是“自注意",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0808",
+      "text": "这门课好难啊哈哈",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个学生是否在某个课程中",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0750",
+      "text": "答辩 PPT 谁来做",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否可以做某件事情，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0853",
+      "text": "天气真不错",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个具体的天气情况，比如天气",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0470",
+      "text": "我的训练代码报 CUDA out of memory 怎么办",
+      "gold": "代码调试",
+      "raw": "这句话的意图是，如果我训练代码报，我希望能够帮助",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0694",
+      "text": "麻烦问下我们组五个人怎么分工比较合理",
+      "gold": "项目协作",
+      "raw": "这句话的意图是“麻烦问下我们组五个人",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0636",
+      "text": "请问有没有过拟合的课件",
+      "gold": "资源请求",
+      "raw": "这句话的意图是询问某个问题是否过于复杂或不",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0093",
+      "text": "帮我解释一下过拟合",
+      "gold": "概念解释",
+      "raw": "这句话的意图是，过拟合是指模型在训练数据上表现",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0762",
+      "text": "答辩 PPT 谁来做",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否可以做某件事情，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0221",
+      "text": "我的信息熵实验报告不会写",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问信息熵实验报告是否会写。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0666",
+      "text": "答辩 PPT 谁来做",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否可以做某件事情，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0428",
+      "text": "我的训练代码报 CUDA out of memory 怎么办",
+      "gold": "代码调试",
+      "raw": "这句话的意图是，如果我训练代码报，我希望能够帮助",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0220",
+      "text": "hi，选题五的微调部分怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问某个特定领域或问题的答案，",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0334",
+      "text": "模型输出全是乱码，代码哪里错了",
+      "gold": "代码调试",
+      "raw": "这句话的意图是“模型输出全是乱码，代码哪",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0068",
+      "text": "麻烦问下量化是什么意思",
+      "gold": "概念解释",
+      "raw": "这句话的意图是“麻烦问下量化”，意",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0310",
+      "text": "选题五的微调部分怎么做～",
+      "gold": "作业求助",
+      "raw": "这句话的意图是“选题五的微调部分”，意图",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0190",
+      "text": "选题五的微调部分怎么做!",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问选题中的“选题”或“",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0705",
+      "text": "下次组会什么时候开",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问下次组会什么时候开。",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0548",
+      "text": "哪里有强化学习的公开数据集",
+      "gold": "资源请求",
+      "raw": "这句话的意图是“在某个平台上，有强化学习",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0792",
+      "text": "答辩 PPT 谁来做",
+      "gold": "项目协作",
+      "raw": "这句话的意图是询问对方是否可以做某件事情，即",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0898",
+      "text": "这门课好难啊哈哈",
+      "gold": "闲聊",
+      "raw": "这句话的意图是询问某个学生是否在某个课程中",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0194",
+      "text": "实验的消融部分要怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问某个实验的消融部分要",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0573",
+      "text": "推荐几篇BFS的论文～",
+      "gold": "资源请求",
+      "raw": "这句话的意图是推荐一篇关于“推荐几篇BFS的",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "id": "int-0260",
+      "text": "实验的消融部分要怎么做",
+      "gold": "作业求助",
+      "raw": "这句话的意图是询问某个实验的消融部分要",
+      "pred": null,
+      "correct": false
+    }
+  ]
+}
