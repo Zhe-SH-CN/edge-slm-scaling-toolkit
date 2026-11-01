@@ -3,13 +3,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-ee4c2c.svg)](https://pytorch.org/)
-[![arXiv](https://img.shields.io/badge/arXiv-2609.xxxxx-b31b1b.svg)](https://arxiv.org/)
+[![Technical Report](https://img.shields.io/badge/Technical%20Report-PDF-b31b1b.svg)](paper/main.pdf)
 
 > [English](README.md) | **简体中文**
 
 论文官方开源评测与微调套件：  
 **《Scaling Laws at the Edge: First-Principles Adaptation, Subspace Allocation, and Quantization Trade-offs for Small Language Models》**  
 张思哲、王文远、张宇轩、董哲扬、张勤琴\*（上海交通大学机械与动力工程学院）
+
+📄 **[阅读完整 9 页技术报告 (PDF)](paper/main.pdf)**
 
 ---
 
